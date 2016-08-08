@@ -1,0 +1,22 @@
+@CarlosIdeScript follow me on twitter!
+
+Veja o que foi adicionado na primeira versão do ModPE Studio:
+
+•Adicionado Destaque de sintaxe do JavaScript
+•Adicionado Ferramentas do JavaScript(JavaScript tools)
+•Adicionado Ferramentas do ModPE(ModPE tools)
+•Adicionado criação de getters e setters
+•Adicionado CodeCompletion (functions, hooks, JavaAPI, AndroidAPI)!
+•Adicionado Configurações
+•Adicionado Documentação(Em desenvolvimente...)
+•Adicionado Base64 Encoder/Decoder
+•Adicionado API do android
+•Adicionado interfaces das views
+•Atualizado para 0.14.x
+
+Conclusão: ModPE é uma Ide profissional para a criação de mods para MCPE, tambem poderá ser
+usada para criação de scripts.
+
+Esse é o so o começo!, melhorarei ela a cada versão com novas funcionalidades impressionantes!
+
+Meu twitter: @CarlosIdeScript

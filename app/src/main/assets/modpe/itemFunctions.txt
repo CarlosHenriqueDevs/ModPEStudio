@@ -1,0 +1,16 @@
+Item.addCraftRecipe(par1int, par2int, par3int, par4Scriptable);
+Item.addFurnaceRecipe(par1int, par2int, par3int);
+Item.addShapedRecipe(par1int, par2int, par3int, par4Scriptable, par5Scriptable);
+Item.defineArmor(par1int, par2String, par3int, par4String, par5String, par6int, par7int, par8int);
+Item.getMaxDamage(par1int);
+Item.getName(par1int, par2int, par3boolean);
+Item.getTextureCoords(par1int, par2int);
+Item.getUseAnimation(par1int);
+Item.isValidItem(par1int);
+Item.setCategory(par1int, par2int);
+Item.setEnchantType(par1int, par2int, par3int);
+Item.setHandEquipped(par1int, par2boolean);
+Item.setMaxDamage(par1int, par2int);
+Item.setProperties(par1int, par2Object);
+Item.setStackedByData(par1int, par2boolean);
+Item.setUseAnimation(par1int, par2int);

@@ -1,0 +1,15 @@
+A classe Player possui métodos para modificar o jogador
+
+Métodos:
+
+addExp(int count) - dá uma certa quantidade de xp para o jogador
+
+Parâmetros:
+count >> quantidade de xp
+
+Player.addItemCreativeInv(itemId, ammount, damage); - Adiciona um item ao inventário criativo
+
+Parâmetros:
+itemId - id do item(id - identificador de items)
+ammount - quantidade que será adicionada
+damage - damage do item(Não é dano!)

@@ -1,0 +1,8 @@
+Renderer.getModel();
+Renderer.createHumanoidRenderer();
+Model.getPart(name);
+Part.clear();
+Part.addBox(x, y, z, width, height, depth, scale);
+Part.setTextureOffset(x, y);
+Part.setRotationPoint(x, y, z);
+Part.setTextureSize(width, height);

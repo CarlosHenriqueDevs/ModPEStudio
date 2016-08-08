@@ -1,0 +1,9 @@
+Math.PI
+Math.E
+Math.abs(x)
+Math.acos(x)
+Math.asin(x)
+Math.atan(x)
+Math.atan2(y, x)
+Math.ceil(x)
+Math.cos(x)

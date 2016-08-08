@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+	android:key="cbDestaque"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:defaultValue="true"
+	android:checked="true"
+	android:title="@string/conf_destaque"
+	android:summary="@string/conf_destaque_summary" />
+
+    <CheckBoxPreference
+	android:key="modoTest"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:title="Modo Teste"
+	android:checked="true"
+	android:defaultValue="true"
+	android:summary="Ativa novas functionalidades no Editor, porém poderá causar bugs" />
+
+    <CheckBoxPreference
+	android:key="cbShowLine"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:defaultValue="true"
+	android:checked="true"
+	android:title="@string/conf_show_line"
+	android:summary="@string/conf_show_line_summary" />
+    
+    <CheckBoxPreference
+	android:key="reopen"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:defaultValue="false"
+	android:checked="false"
+	android:title="Reopen recent files" />
+    
+    <EditTextPreference
+	android:key="edFonteSize"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:defaultValue="16"
+	android:inputType="number"
+	android:title="@string/conf_fonte_size"
+	android:summary="@string/conf_fonte_size_summary" />
+
+</PreferenceScreen>

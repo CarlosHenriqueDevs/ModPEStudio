@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ModPE Studio</string>
+    <string name="hello_world">Hello world!</string>
+		<string name="selection_copy">Copiar</string>
+		<string name="selection_cut">Cortar</string>
+		<string name="selection_rename">Renomeiar</string>
+		<string name="selection_get_set">Criar getters e setters</string>
+		<string name="selection_goline">Ir para</string>
+		<string name="code">Código...</string>
+		<string name="code_comment">Comentar</string>
+		<string name="app_conf">Configurações</string>
+		<string name="conf_destaque">Destaque de Sintaxe</string>
+		<string name="conf_destaque_summary">Adiciona cores de sintaxe do JavaScript</string>
+		<string name="conf_show_line">Mostrar total de linhas</string>
+		<string name="conf_show_line_summary">Mostra o total de linhas de códigos</string>
+		<string name="conf_simple_completion">Simples AutoCompletar</string>
+		<string name="conf_simple_completion_summary">Autocompleta quando digitado { ou (</string>
+		<string name="conf_fonte_size">Tamanho da fonte</string>
+		<string name="conf_fonte_size_summary">Aumenta/Diminui o tamanho das letras</string>
+		
+</resources>

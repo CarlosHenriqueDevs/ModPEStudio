@@ -1,0 +1,6 @@
+Server.getAddress();
+Server.getAllPlayerNames();
+Server.getAllPlayers();
+Server.getPort();
+Server.joinServer(par1String, par2int);
+Server.sendChat(par1String);

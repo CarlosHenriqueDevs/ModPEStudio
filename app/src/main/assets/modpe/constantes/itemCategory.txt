@@ -1,0 +1,5 @@
+ItemCategory.DECORATION;
+ItemCategory.FOOD;
+ItemCategory.INTERNAL;
+ItemCategory.MATERIAL;
+ItemCategory.TOOL;

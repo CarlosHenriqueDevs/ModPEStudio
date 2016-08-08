@@ -1,0 +1,17 @@
+Block.defineBlock(par1int, par2String, par3Object, par4Object, par5Object, par6Object);
+Block.defineLiquidBlock(par1int, par2String, par3Object, par4Object);
+Block.getAllBlockIds();
+Block.getDestroyTime(par1int, par2int);
+Block.getFriction(par1int, par2int);
+Block.getRenderType(par1int);
+Block.getTextureCoords(par1int, par2int, par3int);
+Block.setColor(par1int, par2Scriptable);
+Block.setDestroyTime(par1int, par2double);
+Block.setExplosionResistance(par1int, par2double);
+Block.setFriction(par1int, par2double);
+Block.setLightLevel(par1int, par2int);
+Block.setLightOpacity(par1int, par2int);
+Block.setRedstoneConsumer(par1int, par2boolean);
+Block.setRenderLayer(par1int, par2int);
+Block.setRenderType(par1int, par2int);
+Block.setShape(par1int, par2double, par3double, par4double, par5double, par6double, par7double, par8int);

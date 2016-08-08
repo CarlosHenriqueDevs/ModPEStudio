@@ -1,0 +1,4 @@
+ArmorType.boots;
+ArmorType.chestplate;
+ArmorType.helmet;
+ArmorType.leggings;
