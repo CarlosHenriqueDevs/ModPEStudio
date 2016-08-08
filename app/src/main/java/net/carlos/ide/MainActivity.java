@@ -43,7 +43,7 @@ import net.carlos.ide.editor.LineCount;
 import net.carlos.ide.editor.javascript.JavaScriptTools;
 import net.carlos.ide.editor.modpe.ModPEFunctions;
 import net.carlos.ide.java.JavaAPI;
-import org.apache.commons.codec.binary.Base64;
+//import org.apache.commons.codec.binary.Base64;
 import android.widget.ScrollView;
 
 public class MainActivity extends Activity 
@@ -296,8 +296,8 @@ public class MainActivity extends Activity
 	    @Override
 	    public void afterTextChanged(Editable p1)
 	    {
-	       byte[] decoded = Base64.decodeBase64(p1.toString().getBytes());
-	       output.setText(new String(decoded));
+	       //byte[] decoded = Base64.decodeBase64(p1.toString().getBytes());
+	       //output.setText(new String(decoded));
 	    }
 
 	 });
@@ -325,22 +325,22 @@ public class MainActivity extends Activity
 	 {
 
 	    @Override
-	    public void beforeTextChanged(CharSequence p1, int p2, int p3, int p4)
+	    public void beforeTextChanged(CharSequence text, int start, int count, int end)
 	    {
 
 	    }
 
 	    @Override
-	    public void onTextChanged(CharSequence p1, int p2, int p3, int p4)
+	    public void onTextChanged(CharSequence text, int start, int count, int end)
 	    {
 
 	    }
 
 	    @Override
-	    public void afterTextChanged(Editable p1)
+	    public void afterTextChanged(Editable e)
 	    {
-	       byte[] encoded = Base64.encodeBase64(p1.toString().getBytes());
-	       output.setText(new String(encoded));
+	       //byte[] encoded = Base64.encodeBase64(p1.toString().getBytes());
+	       //output.setText(new String(encoded));
 	    }
 
 	 });
